@@ -1,0 +1,22 @@
+.card {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+.image {
+  object-fit: cover;
+  border: 2px solid black;
+}
+.image:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.info {
+  padding: 1rem;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.card:hover .info {
+  opacity: 1;
+}
